@@ -1,7 +1,6 @@
 import os
 from typing import Literal
 
-
 DIRECTORY_PATH = os.path.abspath(os.path.join(__file__, "..", ".."))
 FILE_NAME: Literal["example.txt", "input.txt"] = "input.txt"
 
@@ -40,4 +39,4 @@ with open(DIRECTORY_PATH + "\\" + FILE_NAME, "r") as file:
 		if is_safe(values) or safe_by_removing(values):
 			total += 1
 
-print(f"Total distance: {total}")
+print(f"Safe reports: {total}")

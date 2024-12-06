@@ -26,4 +26,4 @@ with open(DIRECTORY_PATH + "\\" + FILE_NAME, "r") as file:
 		if safe:
 			total += 1
 
-print(f"Total distance: {total}")
+print(f"Safe reports: {total}")
